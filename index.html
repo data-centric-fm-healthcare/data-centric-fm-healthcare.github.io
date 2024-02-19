@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="data-centric-fm-healthcare.github.io"/>
+
+  <meta name="keywords" content="Foundation models, large language models, data-centric AI, healthcare, AI alignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Data-Centric Foundation Models in Computational Healthcare</title>
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Data-Centric Foundation Models in Computational Healthcare</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://github.com/Yunkun-Zhang" target="_blank">Yunkun Zhang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Jin Gao<sup>1</sup>, Zheling Tan<sup>1</sup>, Lingfeng Zhou<sup>1</sup>,
+            </span><br>
+            <span class="author-blokc">
+              Kexin Ding<sup>2</sup>, Mu Zhou<sup>3</sup>, Shaoting Zhang<sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=OZ7PjVoAAAAJ&hl=en" target="_blank">Dequan Wang</a><sup>1,4</sup>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">
+              <sup>1</sup>Shanghai Jiao Tong University<br>
+              <sup>2</sup>University of North Carolina at Charlotte<br>
+              <sup>3</sup>Rutgers University<br>
+              <sup>4</sup>Shanghai Artificial Intelligence Laboratory
+            </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- Arxiv PDF link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2401.02458.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/Yunkun-Zhang/Data-Centric-FM-Healthcare" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>GitHub</span>
+                </a>
+              </span>
+
+              <!-- ArXiv abstract Link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.02458" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The advent of foundation models (FMs) as an emerging suite of AI techniques has struck a wave of opportunities in computational healthcare. The interactive nature of these models, guided by pre-training data and human instructions, has ignited a data-centric AI paradigm that emphasizes better data characterization, quality, and scale. In healthcare AI, obtaining and processing high-quality clinical data records has been a longstanding challenge, ranging from data quantity, annotation, patient privacy, and ethics. In this survey, we investigate a wide range of data-centric approaches in the FM era (from model pre-training to inference) towards improving the healthcare workflow. We discuss key perspectives in AI security, assessment, and alignment with human values. Finally, we offer a promising outlook of FM-based analytics to enhance the performance of patient outcome and clinical workflow in the evolving landscape of healthcare and medicine.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Overview -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            From a data-centric viewpoint, we emphasize the interplay between patients, healthcare data, and foundation models.
+          </p>
+          <img src="images/overview.png" alt="Overview"/>
+          <h3 class="title is-5">Why data-centric?</h3>
+          <ul>
+            <li>Foundation models demonstrate the power of <strong>scale</strong>, where the enlarged model and data size permit foundation models to capture vast amounts of information, thus increasing the pressing need of training data quantity.</li>
+            <li>Foundation models encourage <strong>homogenization</strong> as evidenced by their extensive adaptability to downstream tasks. High-quality data for foundation model training thus becomes critical since it can impact the performance of both pre-trained and downstream models.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End overview -->
+
+
+<!-- FM -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Foundation Models in Healthcare</h2>
+        <div class="content has-text-justified">
+          Foundation model workflow:
+          <ul>
+            <li><strong>Large scale pre-training</strong> is an essential approach to building a foundation model from scratch.</li>
+            <li><strong>Downstream generalization</strong>, including fine-tuning and in-context learning, is a critical technique in constructing medical domain-specific foundation models.</li>
+          </ul>
+          <img src="images/fm.png" alt="FM"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End FM -->
+
+
+<!-- Multimodal -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Multi-Modal Data Fusion</h2>
+        <div class="content has-text-justified">
+          <p>
+            Foundation models can enable a more scalable, generalizable, and comprehensive multi-modal healthcare data fusion. Conventional fusion approaches are enhanced by joint-modal pre-training and comprehensive foundation models such as LLMs, enabling downstream applications such as medical QA, drug discovery, and diagnosis.
+          </p>
+          <br>
+          <img src="images/multimodal.png" alt="Multimodal"/>
+          <h3 class="title is-5">Data fusion via multi-modal pre-training</h3>
+            <p>
+              Foundation models can handle multiple modalities via pre-training on massive-scale paired multi-modal data in a joint-modal mode to obtain a high-level understanding of inter-modality relationships.
+            </p>
+          <h3 class="title is-5">Data fusion via LLMs</h3>
+          <p>
+            Transformer-style LLMs possess powerful semantic understanding capability via the attention mechanism, which can be transferred to multi-modal settings. Data from different modalities can be aggregated as the prompt input of an LLM.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End multimodal -->
+
+
+<!-- Quantity and Annotation -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Data Quantity and Annotation</h2>
+        <div class="content has-text-justified">
+          Foundation models address data quantity and data annotation challenges. 
+          <ul>
+            <li>Foundation models can mitigate data quantity limitation by data augmentation and improved data efficiency.</li>
+            <li>Foundation models can help both healthcare text and medical image annotation.</li>
+          </ul>
+          <img src="images/qna.png" alt="Quantity and Annotation"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End quantity and annotation -->
+
+
+<!-- Data Privacy -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Data Privacy</h2>
+        <div class="content has-text-justified">
+          Healthcare data privacy protection has always been an important issue. Foundation models offer solutions to this problem while also bringing new challenges.
+          <ul>
+            <li><strong>Solution:</strong> Foundation models can now produce high-quality synthetic medical data with similar characteristics to the original data but without identical information.</li>
+            <li><strong>Challenge:</strong> Foundation models memorize their training data and tend to output these data, which may lead to privacy leakage.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End quantity and annotation -->
+
+
+<!-- Performance Evaluation -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Performance Evaluation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Foundation model evaluation is challenging owing to the models' extensive utilization given their own model scale and complexity. Three common evaluation strategies include benchmarking, human evaluation, and automated evaluation.
+          </p>
+          <img src="images/evaluation.png" alt="Evaluation"/>
+          <p>
+            We provide an up-to-date list of healthcare benchmarks for foundation model evaluation in our <a href="https://arxiv.org/abs/2401.02458">survey paper</a> and <a href="https://github.com/Yunkun-Zhang/Data-Centric-FM-Healthcare">GitHub page</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End performance evaluation -->
+
+
+<!--BibTex citation -->
+<section class="section hero is-small" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title">BibTeX</h3>
+        <p>If you find this project helps, please kindly cite our survey, thanks!</p>
+        <pre><code>@article{zhang2024data,
+  title={Data-Centric Foundation Models in Computational Healthcare: A Survey},
+  author={Zhang, Yunkun and Gao, Jin and Tan, Zheling and Zhou, Lingfeng and Ding, Kexin and Zhou, Mu and Zhang, Shaoting and Wang, Dequan},
+  journal={arXiv preprint arXiv:2401.02458},
+  year={2024}
+}</code></pre>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
