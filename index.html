@@ -43,16 +43,10 @@
           <div class="is-size-5 publication-authors">
             <!-- Paper authors -->
             <span class="author-block">
-              <a href="https://github.com/Yunkun-Zhang" target="_blank">Yunkun Zhang</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              Jin Gao<sup>1</sup>, Zheling Tan<sup>1</sup>, Lingfeng Zhou<sup>1</sup>,
+              <a href="https://github.com/Yunkun-Zhang" target="_blank">Yunkun Zhang</a><sup>1</sup>, Jin Gao<sup>1</sup>, Zheling Tan<sup>1</sup>, Lingfeng Zhou<sup>1</sup>,
             </span><br>
-            <span class="author-blokc">
-              Kexin Ding<sup>2</sup>, Mu Zhou<sup>3</sup>, Shaoting Zhang<sup>4</sup>,
-            </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=OZ7PjVoAAAAJ&hl=en" target="_blank">Dequan Wang</a><sup>1,4</sup>
+              Kexin Ding<sup>2</sup>, <a href="https://scholar.google.com/citations?user=wYvr48gAAAAJ&hl=en">Mu Zhou</a><sup>3</sup>, <a href="https://scholar.google.com/citations?user=oiBMWK4AAAAJ&hl=en">Shaoting Zhang</a><sup>4</sup>, <a href="https://dequanwang.dqwang.group/" target="_blank">Dequan Wang</a><sup>1,4</sup>
             </span>
           </div>
 
@@ -134,7 +128,7 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            From a data-centric viewpoint, we emphasize the interplay between patients, healthcare data, and foundation models.
+            From a data-centric viewpoint, we emphasize the interplay between patients, healthcare data, and foundation models. Patients generate healthcare data and interact with foundation models. Healthcare data captures patient characteristics and supports foundation model training, inference, and deployment. Foundation models assess healthcare data and benefit patients. As illustrated, data-centric strategies promise to reshape clinical workflow , enable precise diagnosis, and uncover insights into treatment.
           </p>
           <img src="images/overview.png" alt="Overview"/>
           <h3 class="title is-5">Why data-centric?</h3>
@@ -142,6 +136,10 @@
             <li>Foundation models demonstrate the power of <strong>scale</strong>, where the enlarged model and data size permit foundation models to capture vast amounts of information, thus increasing the pressing need of training data quantity.</li>
             <li>Foundation models encourage <strong>homogenization</strong> as evidenced by their extensive adaptability to downstream tasks. High-quality data for foundation model training thus becomes critical since it can impact the performance of both pre-trained and downstream models.</li>
           </ul>
+          <h3 class="title is-5">In healthcare</h3>
+          <p>
+            Healthcare and medical data challenges have posed persistent obstacles over decades, including multi-modality data fusion, limited data volume, annotation burden, and the critical concern of patient privacy protection. To respond, the foundation model era opens up perspectives to advance data-focused AI analytics in healthcare.
+          </p>
         </div>
       </div>
     </div>
@@ -163,6 +161,9 @@
             <li><strong>Downstream generalization</strong>, including fine-tuning and in-context learning, is a critical technique in constructing medical domain-specific foundation models.</li>
           </ul>
           <img src="images/fm.png" alt="FM"/>
+          <p>
+            We provide an up-to-date list of healthcare foundation models in our survey paper (Appendix B) and GitHub page.
+          </p>
         </div>
       </div>
     </div>
@@ -252,7 +253,7 @@
           </p>
           <img src="images/evaluation.png" alt="Evaluation"/>
           <p>
-            We provide an up-to-date list of healthcare benchmarks for foundation model evaluation in our <a href="https://arxiv.org/abs/2401.02458">survey paper</a> and <a href="https://github.com/Yunkun-Zhang/Data-Centric-FM-Healthcare">GitHub page</a>.
+            We provide an up-to-date list of healthcare benchmarks for foundation model evaluation in our survey paper (Table 1) and GitHub page.
           </p>
         </div>
       </div>
@@ -260,6 +261,23 @@
   </div>
 </section>
 <!-- End performance evaluation -->
+
+
+<!-- Conclusion -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            In this survey, we have offered an overview of FM challenges from a data-centric perspective. FMs possess great potential to mitigate data challenges in healthcare, including data imbalance and bias, data scarcity, and high annotation costs. Due to FM's strong content generation capabilities, there is a remarkable need for greater vigilance regarding data privacy, data bias, and ethical considerations about the generated medical knowledge. Only by adequately and reliably addressing the data-centric challenges can we better leverage the power of FMs across a broader scope of medicine and healthcare.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End conclusion -->
 
 
 <!--BibTex citation -->
@@ -290,7 +308,7 @@
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            <!-- You are free to borrow the of this website, we just ask that you link back to this page in the footer. --> <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
